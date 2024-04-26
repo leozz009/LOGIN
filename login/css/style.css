@@ -1,0 +1,34 @@
+.texto-presentacion{
+    
+    color: #2B5629;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.max{
+    width: 95vw;
+    height: 95vh;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+.background-awaq{
+    background-image: url("../img/background.png");
+}
+
+.forgot-password{
+    font-size: 12px;
+}
+
+.mantener-sesion{
+    font-size: 12px;
+}
+
+@media(max-width: 991px){
+    body{
+        overflow-y: scroll;
+    }
+}
